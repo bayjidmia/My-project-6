@@ -16,7 +16,7 @@ const displaycatagory =(posts)=>{
     const btndiv=document.createElement('div')
 
     btndiv.innerHTML=`
-           <button onclick="loadbtn(${post.id})" class="flex color-btn font-xl">${post.category_name}</button>
+           <button  onclick="loadbtn(${post.id})" class="flex color-btn hover:bg-green-700 font-xl">${post.category_name}</button>
     
     `
     levelcontainer.append(btndiv)
