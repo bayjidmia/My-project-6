@@ -8,7 +8,7 @@
      <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body>
+<body class="bg-[#F0FDF4]">
     <header>
         <div class="navbar bg-[#15803D] shadow-sm ">
   <div class="navbar-start">
@@ -55,8 +55,26 @@
         </section>
     </header>
 
-    <main>
-      <section>
+    <main class="bg-[#F0FDF4]">
+      <section class="  lg:flex row-span-3 w-11/12 mx-auto gap-10 mt-10 flex-row">
+        <section class="w-full lg:w-[20%]">
+           
+            
+           <div id="level-container" class="flex flex-wrap mx-3 lg:flex-col items-center text-center gap-4"></div>
+             
+           
+
+            
+        </section>
+         <section class="overflow-y-auto mt-5 md:w-[60] h-[400px] ">
+            <div id="card" class=" flex flex-col items-center md:grid  md:grid-cols-2 lg:grid lg:grid-cols-3 gap-32">
+                
+            </div>
+         </section>
+
+         <section class="w-full md:w-[20%]">
+            <div class="flex item center">hello worldwide</div>
+         </section>
 
       </section>
 
@@ -118,14 +136,14 @@
 
                 <div>
                   
-                  <select id="bank" class="select  bg-white mt-3 md:w-[400px]">
-                     <option disabled selected>Select Bank</option>
-                     <option>AB bank</option>
-                      <option>Bangladesh Bank</option>
-                     <option>Bangladesh Islamic Bank</option>
+                  <select id="bank" class="select bg-white  mt-3 md:w-[400px]">
+                     <option disabled selected>Number of Trees</option>
+                     <option>1 Tree-$5</option>
+                      <option>5 Tree - $25</option>
+                     <option>10 Tree -$45</option>
                   </select>
                </div>
-                 <button class="btn btn-secondary bg-[#FACC15] text-[#15803D] rounded-4xl border-none mb-2 mt-3 w-[200px] md:w-[400px]">Get Involved</button>
+                 <button class="btn btn-secondary bg-[#FACC15] text-[#15803D] rounded-4xl border-none mb-2 mt-3 w-[200px] md:w-[400px]">Donate Now</button>
               </form>
 
           </div>
